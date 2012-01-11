@@ -1,0 +1,176 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size:17px;
+	text-align:justify;
+	color:rgb(160, 160, 160);
+}
+
+.wciecie_tesktu{
+	text-indent:35px;
+}
+
+h1{
+	font-size:18px;
+}
+.pt{
+	padding-top:70px;
+}
+.pb{
+}
+
+#pojemnik{
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:20px;
+	width:1009px;
+	height:600px;
+	position:relative;
+}
+
+#tresc{
+	left:160px;
+	width:849px;
+	height:631px;
+	background-image:url(png/tresc.png);
+	position:absolute;
+}
+#tresc #tekst{
+	position:absolute;
+	width:808px;
+	height:582px;
+	left:25px;
+	top:17px;
+	overflow:auto;
+}
+#tresc #tekst #akapit{
+	width:751px;
+	left:5px;
+	position:absolute;
+	padding-left:50px;
+	padding-top:50px;
+}
+#tresc #tekst #akapit_kontakt{
+	width:751px;
+	left:5px;
+	position:absolute;
+	padding-left:20px;
+	padding-top:220px;
+	text-align:center;
+}
+
+#ob{
+	width:790px;
+	height:565px;
+	margin-left:15px;
+	padding-top:10px;
+}
+
+#logo{
+	width:128px;
+	height:87px;
+	background-image:url(png/logo.png);
+	left:53px;
+	top:90px;
+	position:absolute;
+}
+
+#home{
+	width:160px;
+	height:76px;
+	position:absolute;
+	top:190px;
+	left:30px;
+}
+#home_akt{
+	width:160px;
+	height:76px;
+	position:absolute;
+	top:190px;
+	left:40px;
+}
+
+#portfolio{
+	width:160px;
+	height:82px;
+	position:absolute;
+	left:30px;
+	top:250px;
+}
+#portfolio_akt{
+	width:160px;
+	height:82px;
+	position:absolute;
+	left:40px;
+	top:250px;
+}
+
+#kontakt{
+	width:160px;
+	height:82px;
+	left:30px;
+	position:absolute;
+	top:310px;
+}
+#kontakt_akt{
+	width:160px;
+	height:82px;
+	left:40px;
+	position:absolute;
+	top:310px;
+}
+
+table tr td{
+	text-align:center;
+}
+
+img {
+	border:none;
+}
+
+a:link {
+	color:rgb(160, 160, 160);
+	text-decoration:none;
+}
+a:visited {
+	color:rgb(160, 160, 160);
+	text-decoration:none;
+}
+a:active {
+	color:rgb(160, 160, 160);
+	text-decoration:underline;
+}
+a:hover {
+	color:rgb(160, 160, 160);
+	text-decoration:underline;
+
+}
+.wc a:hover {
+	padding-left:10px;
+}
+
+#stopka{
+	width:500px;
+	border-top:1px solid silver;
+	text-align:center;
+	color:silver;
+	top:700px;
+	left:340px;
+	font-size:x-small;
+	position:absolute;
+}
+#pojemnik #stopka a:link {
+	color:silver;
+	text-decoration:none;
+}
+#pojemnik #stopka a:visited {
+	color:silver;
+	text-decoration:none;
+}
+#pojemnik #stopka a:active {
+	color:black;
+	text-decoration:underline;
+}
+#pojemnik #stopka a:hover {
+	color:black;
+	text-decoration:underline;
+}
